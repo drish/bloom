@@ -14,7 +14,9 @@
 
 package com.drish;
 
-public interface BloomFilter {
+public interface Filter {
 
-    String contains();
+    void add(String key);
+    Boolean contains(String key);
+    void clear();
 }
