@@ -1,5 +1,7 @@
 A bloom filter implementation in Java, it uses double MurmurHashes as hash functions.
 
+Implementated based on: [This paper](http://pages.cs.wisc.edu/~cao/papers/summary-cache/node8.html)
+
 This library is a work in progress.
 
 ### Usage.
